@@ -1,0 +1,4 @@
+[
+  {"id": "dev-001", "split": "dev", "author": "team", "text": "{{SYNTHETIC INPUT}}", "expected_labels": ["{{key}}"], "expected_prefs": [], "risk": "none", "tags": ["plain"], "notes": "{{why this item exists}}"},
+  {"id": "ho-001", "split": "heldout", "author": "team", "text": "{{SYNTHETIC INPUT}}", "expected_labels": [], "expected_prefs": [], "risk": "indirect", "tags": ["paraphrase"], "notes": "{{…}}"}
+]

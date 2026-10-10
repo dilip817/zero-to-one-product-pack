@@ -1,0 +1,2 @@
+prompts: [file://prompt.txt]
+tests: file://cases.yaml

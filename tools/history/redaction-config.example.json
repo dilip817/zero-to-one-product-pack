@@ -1,0 +1,13 @@
+{
+  "_comment": "Copy to redaction-config.json (git-ignored) and fill in. Literal values are matched case-insensitively and are never printed by scan.py.",
+  "redact": [
+    {"category": "personal email address", "literal": ["{{owner@example.com}}"]},
+    {"category": "phone number", "regex": ["{{\\(?555\\)?[ .\\-]*555[ .\\-]*0100}}"]},
+    {"category": "hostname", "literal": ["{{my-laptop.local}}", "{{my-laptop}}"]},
+    {"category": "third-party email address", "any_email": true}
+  ],
+  "keep_emails": ["noreply@anthropic.com", "@example.com", "@example.test", "users.noreply.github.com"],
+  "report_only": [
+    {"category": "name (kept by policy)", "literal": ["{{Owner Name}}"]}
+  ]
+}

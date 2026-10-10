@@ -1,0 +1,2 @@
+model Invoice { id String @id  dueAt DateTime  paidAt DateTime? }
+model Reminder { id String @id  invoiceId String  channel String }
